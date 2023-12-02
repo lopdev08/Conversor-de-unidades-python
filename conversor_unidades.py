@@ -401,3 +401,29 @@ while True:
             case "2":
                 resultado = metrossegundo_a_kilometroshora(numero_1)
                 print(f"{numero_1} metros/s son {resultado} kilometros/h")
+    
+    elif opcion == "7":
+        match(opcion_moneda):
+            case "1":
+                resultado = mxn_a_dolar(numero_1)
+                print(f"{numero_1} pesos mxn son {resultado} dolares")
+
+            case "2":
+                resultado = dolar_a_mxn(numero_1)
+                print(f"{numero_1} dolares son {resultado} pesos mxn")
+
+            case "3":
+                resultado = mxn_a_euro(numero_1)
+                print(f"{numero_1} pesos mxn son {resultado} euros")
+            
+            case "4":
+                resultado = euro_a_mxn(numero_1)
+                print(f"{numero_1} euros son {resultado} pesos mxn")
+
+            case "5":
+                resultado = dolar_a_euro(numero_1)
+                print(f"{numero_1} dolares son {resultado} euros")
+
+            case "6":
+                resultado = euro_a_dolar(numero_1)
+                print(f"{numero_1} euros son {resultado} dolares")
